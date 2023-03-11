@@ -1,0 +1,28 @@
+ 
+.card {
+  padding: 0rem;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: .4rem;
+  margin-bottom: 1rem;
+  overflow: hidden;
+
+  &.is-loading {
+    img {
+      visibility: hidden;
+    }
+  }
+
+  div {
+    max-width: 300px;
+    min-width: 300px;
+  } 
+
+  ul {
+    padding-right: 1.5rem;
+  }
+}
+
+
+  
