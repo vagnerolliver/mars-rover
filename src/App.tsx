@@ -50,7 +50,7 @@ function App() {
  
   return (
     <div className="App">
-      <h1>Mars Rover</h1> 
+      <h1>Mars Rover Photos Randomly</h1> 
      
       {page > 1 ? <button onClick={() => handlePage(page - 1)}>Prev Page</button> : null}
       

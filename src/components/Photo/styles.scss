@@ -1,8 +1,7 @@
  
 .card {
   padding: 0rem;
-  display: flex;
-  align-items: center;
+
   border: 1px solid #ccc;
   border-radius: .4rem;
   margin-bottom: 1rem;
@@ -14,10 +13,7 @@
     }
   }
 
-  div {
-    max-width: 300px;
-    min-width: 300px;
-  } 
+  
 
   ul {
     padding-right: 1.5rem;
@@ -25,4 +21,14 @@
 }
 
 
-  
+@media only screen and (min-width: 600px) {
+  .card {
+    display: flex;
+    align-items: center;
+
+    div {
+      max-width: 300px;
+      min-width: 300px;
+    } 
+  }
+}
