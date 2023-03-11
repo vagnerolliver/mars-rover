@@ -60,7 +60,6 @@ function App() {
         <div className="mars-photos">
           {photos.length ? photos.map((item, index) =>(
             <Photo 
-              cameraName={item.camera.name} 
               cameraFullName={item.camera.full_name} 
               roverName={item.rover.name} 
               imgSrc={item.img_src}

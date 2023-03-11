@@ -3,7 +3,6 @@ export interface Photo {
   img_src: string
   camera: {
     full_name: string
-    name: string
   }
   rover: {
     name: string
