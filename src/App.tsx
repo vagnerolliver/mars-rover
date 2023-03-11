@@ -5,9 +5,9 @@ import { Loader } from './components/Loader'
 import { Photo } from './components/Photo'
 import useFetch from './hooks/useFetch'
 
-const endpoint = import.meta.env.VITE_ENDPOINT_PHOTOS
-const api_key =  import.meta.env.VITE_API_KEY || 'DEMO_KEY'
-
+const endpoint = import.meta.env.VITE_ENDPOINT_PHOTOS ?? '${VITE_ENDPOINT_PHOTOS}'
+const api_key = import.meta.env.VITE_API_KEY ?? '${VITE_API_KEY}'
+ 
 import './App.scss'
 import { useItemsRandomly } from './hooks/useItemsRandomly'
 

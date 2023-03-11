@@ -8,4 +8,13 @@ export default defineConfig({
   resolve: {
     alias: [{ find: '@', replacement: path.resolve(__dirname, 'src') }],
   },
+  server: {
+    watch: {
+      usePolling: true,
+    },
+    host: true,
+    hmr: {
+      port: 3000,
+    },
+  },
  })
