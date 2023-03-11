@@ -37,3 +37,6 @@ React application to view 4 randomly chosen from one of the existing NASA APIs, 
 ## Build Deploy  
 $ docker build -t marsrover .
 
+
+![preview](preview.png)
+

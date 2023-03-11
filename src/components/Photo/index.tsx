@@ -26,7 +26,7 @@ export function Photo(props: Photo) {
     <div className={`card ${loading ? 'is-loading' : ''}`}>      
       <div>
         {loading && <Loader />}
-        <img className="img" src={imgSrc} alt={descriptionImage()} aria-labelledby={id} onLoad={handleOnLoad} />
+        <a href={imgSrc} target="_blank" title={descriptionImage()}> <img className="img" src={imgSrc} alt={descriptionImage()} aria-labelledby={id} onLoad={handleOnLoad} /></a>
       </div>
 
       <ul id={id}>

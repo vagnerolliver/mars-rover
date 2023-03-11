@@ -1,19 +1,24 @@
  
 .card {
   padding: 0rem;
-
   border: 1px solid #ccc;
   border-radius: .4rem;
   margin-bottom: 1rem;
-  overflow: hidden;
 
+  a {
+    cursor: zoom-in;
+  }
+
+  img {
+    border-top-left-radius: .2rem;
+    border-bottom-left-radius: .2rem;
+  }
+ 
   &.is-loading {
     img {
       visibility: hidden;
     }
   }
-
-  
 
   ul {
     padding-right: 1.5rem;
